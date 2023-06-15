@@ -34,7 +34,7 @@ const image1 = document.getElementById("image1");
       rightText.innerHTML = Paragraphs[4];
     }else if (x === "gender") {
       image1.style.display = "block";
-      image1file.src = "images/sample.jpeg";
+      image1file.src = "images/product.png";
       leftText.innerHTML = Paragraphs[3];
     }else if (x === "animacy") {
       image1.style.display = "block";
