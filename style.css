@@ -53,7 +53,6 @@ body {
   top: 200px;
   max-width: 350px;
   color: white;
-  display: none;
 }
 .associatedImageRight {
   position: absolute;
@@ -155,10 +154,16 @@ text-decoration: underline;
   body {
     text-align: left;
   }
+  .title{
+    padding: 10px;
+  }
+  #navbar{
+    padding: 5px;
+  }
   .projectDiv {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
     max-width: 170px;
   }
   #column {
