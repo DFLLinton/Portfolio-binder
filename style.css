@@ -17,7 +17,7 @@ body {
   height: 550px;
   margin: auto;
   padding: 5px;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .projectDiv {
   color: white;
@@ -30,7 +30,6 @@ body {
 .projectDiv:hover {
   color: #65f5fc;
   font-style: italic;
-  
 }
 .sampleImage {
   height: 350px;
