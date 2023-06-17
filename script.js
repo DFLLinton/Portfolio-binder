@@ -7,11 +7,11 @@ const image1 = document.getElementById("image1");
 
   const Paragraphs = {
     1: ' - Pair programming in a team of seven <br> developers deploying a new mobile <br> application.<br> - Integrating and designing twelve front-end <br> React components and APIs via Github,<br>prioritising principles of object oriented<br>programming.',
-    2: ' - Managed web development for new Soho-based <br> Bar Kroketa.<br> - The process involved communicating in a<br>team of eight designers, entrepreneurs and<br>advertising executives to agree on a viable<br>digital presence.<br> - Anticipated server issues with web<br>deployment and suggested solutions allowing<br>us to launch a five page, dynamic website<br>within stringent deadlines.',
-    3: 'Creating a website using PHP, CSS, HTML, and JavaScript involves combining front-end and back-end technologies to build the structure, style, and interactivity. Deploying it on an FTP server requires configuring file transfers and ensuring proper server setup for PHP execution. Attention to file organization and testing is crucial for a successful online presence.',
-    4: 'Created Machine Learning Algorithm',
-    5: ' - Developed own hypotheses and programmed<br>new experimental technique using Bonvision<br>interface.<br> - My paradigm has been adopted by subsequent<br>researchers at UCL demonstrating its<br>technical aptitude and versatility.<br> - Presented progress and discussed findings<br>at weekly meetings with both senior<br>researchers and software developer, Goncalo<br>Lopes.',
-    6: 'Created Machine Learning Algorithm',
+    2: ' - Managed web development for new Soho-based <br> Bar Kroketa.<br> - The process involved communicating in a<br>team of eight designers, entrepreneurs and<br>advertising executives to agree on a viable<br>digital presence.',
+    3: ' - Created a product guide for small business,<br>King Louie’s Lab, displaying products.<br> - Extensive custom CSS such as multiple<br>cursors and on-hover illustrations, all<br>within a flexbox layout.',
+    4: ` - Redesigned and reprogrammed client's<br>website applying a combination of JavaScript,<br>PHP, CSS, and HTML.<br> - After thorough testing, hosted it online<br>via the FTP back-end, ensuring a seamless<br>transition and optimal performance.`,
+    5: ' - Developed own hypotheses and programmed<br>new experimental technique using Bonvision<br>interface.<br> - My paradigm has been adopted by subsequent<br>researchers at UCL demonstrating its<br>technical aptitude and versatility.',
+    6: ' - Coded website for small, London-based<br>gardening business using React.js and CSS<br>animations.<br> - Client required simple functionality and<br>minimalistic aesthetic with a focus on<br>photography.',
   }
 
   function showImage(x) {
