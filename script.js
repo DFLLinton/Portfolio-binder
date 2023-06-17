@@ -10,7 +10,8 @@ const image1 = document.getElementById("image1");
     2: ' - Managed web development for new Soho-based <br> Bar Kroketa.<br> - The process involved communicating in a<br>team of eight designers, entrepreneurs and<br>advertising executives to agree on a viable<br>digital presence.<br> - Anticipated server issues with web<br>deployment and suggested solutions allowing<br>us to launch a five page, dynamic website<br>within stringent deadlines.',
     3: 'Creating a website using PHP, CSS, HTML, and JavaScript involves combining front-end and back-end technologies to build the structure, style, and interactivity. Deploying it on an FTP server requires configuring file transfers and ensuring proper server setup for PHP execution. Attention to file organization and testing is crucial for a successful online presence.',
     4: 'Created Machine Learning Algorithm',
-    5: ' - Developed own hypotheses and programmed<br>new experimental technique using Bonvision<br>interface.<br> - My paradigm has been adopted by subsequent<br>researchers at UCL demonstrating its<br>technical aptitude and versatility.<br> - Presented progress and discussed findings<br>at weekly meetings with both senior<br>researchers and software developer, Goncalo<br>Lopes.'
+    5: ' - Developed own hypotheses and programmed<br>new experimental technique using Bonvision<br>interface.<br> - My paradigm has been adopted by subsequent<br>researchers at UCL demonstrating its<br>technical aptitude and versatility.<br> - Presented progress and discussed findings<br>at weekly meetings with both senior<br>researchers and software developer, Goncalo<br>Lopes.',
+    6: 'Created Machine Learning Algorithm',
   }
 
   function showImage(x) {
@@ -40,6 +41,10 @@ const image1 = document.getElementById("image1");
       image1.style.display = "block";
       image1file.src = "images/animacy.png";
       leftText.innerHTML = Paragraphs[5];
+    } else if (x === "garden") {
+      image2.style.display = "block";
+      image2file.src = "images/garden.png";
+      rightText.innerHTML = Paragraphs[6];
     }
   }
   function hideImage() {
