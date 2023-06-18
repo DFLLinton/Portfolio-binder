@@ -185,5 +185,6 @@ text-decoration: underline;
   .sampleText {
     font-size: 10px;
     width: 270px;
+    animation: none;
   }
 }
