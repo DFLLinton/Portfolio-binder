@@ -23,7 +23,7 @@ body {
   color: white;
   text-align: left;
   transition: color 0.5s ease-in-out;
-  cursor: pointer;
+  cursor: crosshair;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -114,6 +114,7 @@ padding: 10px;
 font-size: 12px;
 text-decoration: underline;
 }
+
 @media only screen and (max-width: 1312px) {
   body {
     text-align: left;
