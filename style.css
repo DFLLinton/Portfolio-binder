@@ -31,6 +31,12 @@ body {
   color: #65f5fc;
   font-style: italic;
 }
+  
+.projectDiv:hover h2 {
+text-decoration: underline;
+text-decoration-thickness: 1px;
+}
+
 .sampleImage {
   height: 350px;
   width: 350px;
